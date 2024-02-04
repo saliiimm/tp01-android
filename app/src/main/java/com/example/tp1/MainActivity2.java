@@ -78,6 +78,14 @@ public class MainActivity2 extends AppCompatActivity {
                 resultat.setText(String.valueOf(result));
             }
         });
+
+        Button goback = (Button) findViewById(R.id.back);
+        goback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               finish();
+            }
+        });
     }
 
 }
