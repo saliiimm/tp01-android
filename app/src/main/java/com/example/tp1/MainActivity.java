@@ -54,6 +54,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button exo5 = (Button) findViewById(R.id.exo5);
+        exo5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity6.class);
+                startActivity(intent);
+
+            }
+        });
+
 
     }
 
